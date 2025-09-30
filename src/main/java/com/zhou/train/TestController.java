@@ -9,4 +9,8 @@ public class TestController {
     public String test() {
         return "hello world1";
     }
+    @RequestMapping("/branch")
+    public String test1() {
+        return "This is a new branch";
+    }
 }
