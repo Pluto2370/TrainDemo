@@ -1,4 +1,4 @@
-package com.zhou.train;
+package com.zhou.member.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -14,3 +14,4 @@ public class TestController {
         return "This is a new branch";
     }
 }
+
